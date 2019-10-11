@@ -11,11 +11,16 @@ Test task for 482.solutions
 
 ### /users/
 **Allowed methods:**
+
  -GET, no params - returns list of users
+
  -POST, form-urlencoded {name, password, (description)} - creates user with specified credentials
  
 ### /users/<userID>
   **Allowed methods:**
-  -GET, name - returns info about specified user
-  -PUT, form-urlencoded {password, description} - updates info about specified user
-  -DELETE, no params - removes specified user
+
+ -GET, name - returns info about specified user
+
+ -PUT, form-urlencoded {password, description} - updates info about specified user
+
+ -DELETE, no params - removes specified user
