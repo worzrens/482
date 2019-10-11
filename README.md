@@ -4,7 +4,7 @@ Test task for 482.solutions
 
 ## Usage
 
-1) run `./run.sh`
+1) run `sudo bash run.sh`
 2) api now available on 172.17.0.2:4000
 
 ## Routes:
@@ -24,3 +24,6 @@ Test task for 482.solutions
  -PUT, form-urlencoded {password, description} - updates info about specified user
 
  -DELETE, no params - removes specified user
+
+
+Tested via PostMan
